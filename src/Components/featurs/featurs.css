@@ -1,0 +1,45 @@
+.featuers{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featuerItam{
+    padding: 30px;
+    box-shadow: 0px 0px 12px #ccc;
+    border-radius: 10px;
+    flex: 1;
+    margin: 0px 20px;
+    cursor: pointer;
+
+
+}
+.featuerTitle{
+    font-size: 25px;
+
+}
+.featuerContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.featuerMony{
+font-size:20px;
+}
+.featureRate{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    
+}
+.negative{
+    color: red;
+}
+.positive{
+    color: green;
+}
+.fetureSubTitle{
+    color: gray;
+}

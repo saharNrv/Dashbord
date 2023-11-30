@@ -3,6 +3,7 @@ import { useRoutes } from 'react-router-dom';
 import routers from './router';
 import Header from './Components/header/Header';
 import SideBar from './Components/sidebar/SideBar';
+import './App.css';
 
 export default function App() {
 

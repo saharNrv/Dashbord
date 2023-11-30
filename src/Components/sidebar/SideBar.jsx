@@ -11,6 +11,7 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
+import { Link } from 'react-router-dom';
 
 
 export default function SideBar() {
@@ -20,10 +21,13 @@ export default function SideBar() {
             <div className="sidebar-menu">
                 <h3 className='sidbar-title'>dashbord title</h3>
                 <ul className='sidebar-list'>
+                    <Link to="/" className='link'>
                     <li className='sidebar-item active'>
                          <LineStyleIcon className='sidebar-icon'/>
                          Home
                     </li>
+
+                    </Link>
                     <li className='sidebar-item'>
                          <TimelineIcon className='sidebar-icon'/>
                          Analytics
@@ -38,18 +42,27 @@ export default function SideBar() {
             <div className="sidebar-menu">
                 <h3 className='sidbar-title'>Quick Menu</h3>
                 <ul className='sidebar-list'>
-                    <li className='sidebar-item active'>
+                    <Link to="/users" className='link'>
+                    <li className='sidebar-item '>
                          <GroupIcon className='sidebar-icon'/>
                          Users
                     </li>
+
+                    </Link>
+                    <Link to="/newuser" className='link'>
+
                     <li className='sidebar-item'>
                          <PersonIcon className='sidebar-icon'/>
                          NewUser
                     </li>
+                    </Link>
+                    <Link to="/product" className='link'>
                     <li className='sidebar-item'>
                          <StoreIcon className='sidebar-icon'/>
                          Products
                     </li>
+
+                    </Link>
                     <li className='sidebar-item'>
                          <CurrencyExchangeIcon className='sidebar-icon'/>
                          Transaction
@@ -64,7 +77,7 @@ export default function SideBar() {
             <div className="sidebar-menu">
                 <h3 className='sidbar-title'>Notifications</h3>
                 <ul className='sidebar-list'>
-                    <li className='sidebar-item active'>
+                    <li className='sidebar-item '>
                          <MailOutlineIcon className='sidebar-icon'/>
                          Email
                     </li>
