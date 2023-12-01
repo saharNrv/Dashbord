@@ -1,0 +1,53 @@
+.widgetSm{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 12px #ccc;
+    border-radius: 10px;
+    flex: 1;
+}
+.widgetSmTitle{
+    font-weight: bold;
+    
+}
+.widgetSmList{
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.widgetItem{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.widgetSmImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.widgetSmUser{
+
+    display: flex;
+    flex-direction: column;
+}
+.widgetSmName{
+font-size: 20px;
+font-weight: bold;
+}
+.widgetSmJob{
+font-size: 15px;
+color: gray;
+}
+.widgetSmBtn{
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+
+}

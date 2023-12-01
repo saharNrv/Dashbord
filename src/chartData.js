@@ -49,4 +49,31 @@ let chartData=[
     },
 ]
 
-export{chartData}
+let widgetSmUsers=[
+    {
+        id:1,
+        name:'Sasan ahmadi',
+        job:'ui/ux',
+        img:'image/profile.png'
+    },
+    {
+        id:2,
+        name:'Amir yosefi',
+        job:'Hacker',
+        img:'image/us1.jpeg'
+    },
+    {
+        id:3,
+        name:'sahar nouri',
+        job:'web developer',
+        img:'image/us2.png'
+    },
+    {
+        id:4,
+        name:'saeed mehri',
+        job:'backEnd dev',
+        img:'image/us3.jpg'
+    },
+]
+
+export{chartData,widgetSmUsers}
