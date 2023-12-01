@@ -6,7 +6,7 @@ import { widgetSmUsers } from '../../chartData';
 export default function WidgetSm() {
   return (
     <div className='widgetSm'>
-       <span className='widgetSmTitle'>New User Memeber</span>
+       <span className='widgetSmTitle'>New Join Memeber</span>
 
        <ul className='widgetSmList'>
         {widgetSmUsers.map(user=>(

@@ -75,5 +75,38 @@ let widgetSmUsers=[
         img:'image/us3.jpg'
     },
 ]
-
-export{chartData,widgetSmUsers}
+let widgetLgUser=[
+    {
+        id:1,
+        name:'Nima bozorgi',
+        date:'2023 Agu 06',
+        amout:12.90,
+        status:'Pending',
+        img:'image/us1.jpeg'
+    },
+    {
+        id:2,
+        name:'Ali sadeg',
+        date:'2023 Jun 18',
+        amout:22.00,
+        status:'Declind',
+        img:'image/us2.png'
+    },
+    {
+        id:3,
+        name:'Amin mohammadi',
+        date:'2023 Apr 23',
+        amout:17.90,
+        status:'Approved',
+        img:'image/profile.png'
+    },
+    {
+        id:4,
+        name:'Babak moghadas',
+        date:'2023 Jan 16',
+        amout:12.90,
+        status:'Pending',
+        img:'image/us3.jpg'
+    },
+]
+export{chartData,widgetSmUsers,widgetLgUser}
