@@ -109,4 +109,34 @@ let widgetLgUser=[
         img:'image/us3.jpg'
     },
 ]
-export{chartData,widgetSmUsers,widgetLgUser}
+let userList=[
+    {
+        id:1,
+        userName:'sahar nouri',
+        status:'Active',
+        email:'sahar@gmail.com',
+        avatar:'image/us2.png',
+    },
+    {
+        id:2,
+        userName:'mohammad najafi',
+        status:'Active',
+        email:'mmd@gmail.com',
+        avatar:'image/us3.jpg',
+    },
+    {
+        id:3,
+        userName:'Aria gholi',
+        status:'Active',
+        email:'aria@gmail.com',
+        avatar:'image/us1.jpeg',
+    },
+    {
+        id:4,
+        userName:'sina karami',
+        status:'Active',
+        email:'sina@gmail.com',
+        avatar:'image/profile.png',
+    },
+]
+export{chartData,widgetSmUsers,widgetLgUser,userList}
