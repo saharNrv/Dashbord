@@ -1,0 +1,23 @@
+.productDetail{
+    flex: 4;
+    padding: 30px;
+}
+.productDetailContainer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.productDetailTitle{
+
+}
+.productDetailBtn{
+    border: none;
+    padding: 5px 10px;
+    background-color: teal;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+
+}

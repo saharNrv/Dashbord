@@ -114,6 +114,7 @@ let userList=[
         id:1,
         userName:'sahar nouri',
         status:'Active',
+        amout:'$11.998',
         email:'sahar@gmail.com',
         avatar:'image/us2.png',
     },
@@ -121,6 +122,7 @@ let userList=[
         id:2,
         userName:'mohammad najafi',
         status:'Active',
+        amout:'$11.998',
         email:'mmd@gmail.com',
         avatar:'image/us3.jpg',
     },
@@ -128,6 +130,7 @@ let userList=[
         id:3,
         userName:'Aria gholi',
         status:'Active',
+        amout:'$11.998',
         email:'aria@gmail.com',
         avatar:'image/us1.jpeg',
     },
@@ -135,8 +138,39 @@ let userList=[
         id:4,
         userName:'sina karami',
         status:'Active',
+        amout:'$11.998',
         email:'sina@gmail.com',
         avatar:'image/profile.png',
     },
 ]
-export{chartData,widgetSmUsers,widgetLgUser,userList}
+let productData=[
+    {
+        id:1,
+        productName:'laptop msi',
+        avatar:'image/pro1.jpg',
+        price:'$40.000',
+
+    },
+    {
+        id:2,
+        productName:'HP',
+        avatar:'image/pro2.jpg',
+        price:'$33.000',
+
+    },
+    {
+        id:3,
+        productName:'Asus',
+        avatar:'image/pro3.jpg',
+        price:'$66.000',
+
+    },
+    {
+        id:4,
+        productName:'Mac',
+        avatar:'image/pro4.jpg',
+        price:'$45.900',
+
+    },
+]
+export{chartData,widgetSmUsers,widgetLgUser,userList,productData}

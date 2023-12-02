@@ -56,7 +56,7 @@ export default function SideBar() {
                          NewUser
                     </li>
                     </Link>
-                    <Link to="/product" className='link'>
+                    <Link to="/products" className='link'>
                     <li className='sidebar-item'>
                          <StoreIcon className='sidebar-icon'/>
                          Products
