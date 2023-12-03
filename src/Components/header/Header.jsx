@@ -14,7 +14,7 @@ export default function Header() {
              </div>
              <div className="header-right">
                 <div className='header-cover'>
-                    <img src="logo192.png" className='header-img' />
+                    <img src="/image/us1.jpeg" className='header-img' />
                 </div>
                 <div className='icon-wrapper'>
                 <div className='icon-content'>

@@ -173,4 +173,18 @@ let productData=[
 
     },
 ]
-export{chartData,widgetSmUsers,widgetLgUser,userList,productData}
+let productChart=[
+    {
+        name:'Jan',
+        sales:3000
+    },
+    {
+        name:'Apr',
+        sales:4400
+    },
+    {
+        name:'Agu',
+        sales:5600
+    },
+]
+export{chartData,widgetSmUsers,widgetLgUser,userList,productData,productChart}
