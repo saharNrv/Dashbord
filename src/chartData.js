@@ -147,28 +147,28 @@ let productData=[
     {
         id:1,
         productName:'laptop msi',
-        avatar:'image/pro1.jpg',
+        avatar:'/image/pro1.jpg',
         price:'$40.000',
 
     },
     {
         id:2,
         productName:'HP',
-        avatar:'image/pro2.jpg',
+        avatar:'/image/pro2.jpg',
         price:'$33.000',
 
     },
     {
         id:3,
         productName:'Asus',
-        avatar:'image/pro3.jpg',
+        avatar:'/image/pro3.jpg',
         price:'$66.000',
 
     },
     {
         id:4,
         productName:'Mac',
-        avatar:'image/pro4.jpg',
+        avatar:'/image/pro4.jpg',
         price:'$45.900',
 
     },
